@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Financiamineto de campaña</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Financiamiento campana">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/financiamientoCamapana.css">
+</head>
+<body>
+    <header class="header2">
+        <div class="wrapper">
+            <div class="titulo">CROWNMER </div>
+            <nav>
+                <a href="campanaSeleccionada.html">Atras</a>
+            </nav>
+        </div>
+    </header>
+    <div id="contenedor">
+        <div id="central">
+            <div id="login">
+                <div class="titulo">
+                    <p>Financiamiento de campaña</p>
+                    <h2>EcologicVe</h2>
+                </div>
+                <form id="loginform" onsubmit="return validarFormulario()">
+                    <div class="divi">Monto a financiar</div>
+                    <input type="text" name="montoAFinanciar" id="montoAFinanciar" placeholder="Monto" required>
+                    <div class="divi">Tipo de tarjeta</div>
+                    <select name="tipoDeTarjeta" id="tipoDeTarjeta" required>
+                        <option value="Visa">Visa</option>
+                        <option value="MasterCard">MasterCard</option>
+                    </select>
+                    <div class="divi">Código de tarjeta</div>
+                    <input type="text" name="codigoDeTarjeta" id="codigoDeTarjeta" placeholder="Código" required>
+                    <div class="divi">PIN de seguridad (6 dígitos)</div>
+                    <input type="password" name="pinDeSeguridad" id="pinDeSeguridad" placeholder="PIN" minlength="6" maxlength="6" required>
+                    <button type="submit" title="guardar pago" name="guardarPago">Guardar Pago</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <hr>
+        <div class="finalfooter">
+            <h4>@CROWNMER, ALL RIGHT RESERVE</h4>
+        </div>
+    </footer>
+    <script src="JS/financiamientoCampana.js"></script>
+</body>
+</html>

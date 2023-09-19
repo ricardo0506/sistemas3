@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Creación de Campaña</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Creación de campaña">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/creacionCampana.css">
+</head>
+
+<body>
+    <header class="header2">
+        <div class="wrapper">
+            <div class="titulo">CROWNMER</div>
+            <nav>
+                <a href="interfazRecaudador.html">Atras</a>
+                <a href="#" id="guardarBtn">Guardar</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="contenedorCampana1">
+        <div id="central">
+            <div id="creacionCampana">
+                <div class="titulo">
+                    Descripcion de Campaña
+                </div>
+                <input type="text" id="descripcion" placeholder="Descripcion" required>
+                <div class="titulo">
+                    Cargar Imagen de Campaña
+                </div>
+                <input type="file" id="imagen" placeholder="Imagen" required>
+            </div>
+            <div class="inferior"></div>
+        </div>
+
+        <div id="central">
+            <div id="creacionCampana2">
+                <div class="titulo">
+                    Monto a recaudar
+                </div>
+                <input type="text" id="monto" placeholder="Monto a recaudar" required>
+                <div class="titulo">
+                    Fecha de finalización:
+                </div>
+                <input type="date" id="fecha" />
+                <div class="titulo">
+                    Redes sociales
+                </div>
+                <input type="text" placeholder="Facebook" id="facebook" required>
+                <input type="text" placeholder="Instagram" id="instagram" required>
+                <input type="text" placeholder="Twitter" id="twitter" required>
+            </div>
+            <div class="inferior"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <hr>
+        <div class="finalfooter">
+            <h4>@CROWNMER, ALL RIGHT RESERVED</h4>
+        </div>
+    </footer>
+
+    <script src="JS/creacionCampana.js"></script>
+</body>
+
+</html>

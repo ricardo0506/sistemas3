@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Registro de Cuenta de Pago</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Registro Cuentas de Pago">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/registroCuentaPago.css">
+</head>
+<body>
+    <header class="header2">
+        <div class="wrapper">
+            <div class="titulo">CROWNMER</div>
+            <nav>
+                <a href="interfazRecaudador.html">Atrás</a>
+                <a href="#" id="guardarButton">Guardar</a>
+            </nav>
+        </div>
+    </header>
+    <div id="contenedor">
+        <div id="central">
+            <div id="login">
+                <div class="titulo">
+                    Registro de Cuentas de Pago
+                </div>
+                <form id="loginform">
+                    <div class="titulodiv">Codigo de tarjeta</div>
+                    <input type="text" name="codigoTarjeta" placeholder="Tarjeta de crédito" required>
+                    <div class="titulodiv">Tipo de tarjeta</div>
+                    <select name="tipoTarjeta" id="tipoTarjeta" required>
+                        <option value="Visa">Visa</option>
+                        <option value="MasterCard">MasterCard</option>
+                    </select>
+                    <div class="titulodiv">Codigo de seguridad (PIN de 6 números)</div>
+                    <input type="text" class="password" placeholder="PIN" name="codigoSeguridad" pattern="\d{6}" required>
+                </form>
+                <p id="mensajeError" class="error">Por favor, complete todos los campos correctamente.</p>
+                <p id="mensajeExito" class="exito"></p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <hr>
+        <div class="finalfooter">
+            <h4>@CROWNMER, ALL RIGHT RESERVED</h4>
+        </div>
+    </footer>
+    <script src="JS/registroCuentaPago.js"></script>
+</body>
+</html>

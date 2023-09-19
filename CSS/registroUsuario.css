@@ -1,0 +1,237 @@
+body {
+
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 80%;
+    color: #1b262c;
+    
+    margin: 0;
+   
+    
+    background-color: #00674e;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #00674e;
+    margin-bottom: 80px;
+    
+
+}
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+  header .titulo{
+    color: #fff;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+
+  }
+  header nav{
+    float: right;
+    line-height: 200px;
+
+  }
+  header nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+
+
+
+  }
+  header nav a:hover{
+    background: #00ac99;
+    border-radius: 50px;
+
+  }
+  .header2{
+    position: fixed;
+    height: 80px;
+
+  }
+  .header2 .titulo{
+    line-height: 100px;
+    font-size: 30px;
+
+  }
+  .header2 nav{
+    line-height: 100px;
+  }
+
+  
+  #contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 90%;
+    height: 180%;
+
+   
+}
+
+#central {
+    max-width: 320px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 250%;
+    color:#bbe1fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login {
+    width: 130%;
+
+    padding: 20px 50px;
+    background-color: #009675;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    
+    box-sizing: border-box;
+    
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 60%;
+    height: 30px;
+    float: right;
+    
+    margin-bottom: 10px;
+    margin-top: 1%;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+.divi{
+
+  margin-top: 8%;
+  float: none;
+
+
+ 
+ 
+}
+.divi2{
+  margin-top: 5%;
+float: none;
+}
+.divi3{
+  margin-top: 20% ;
+  float: none;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 60%;
+    height: 30px;
+    border: none;
+    margin: 0 60px;
+    
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #bbe1fa;
+    
+    margin-top: 10px;
+}
+
+
+#login button:hover {
+    background-color: #00ac99;
+    color:#bbe1fa;
+    margin-right: 60px ;
+}
+
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: #00ac99;
+}
+
+.inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: #bbe1fa;
+    margin-bottom: 3px;
+}
+
+.inferior a:hover {
+    color: #00ac99;
+}
+.finalfooter{
+    background-color: #009675;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 1.3rem ;
+}
+footer{
+    background-color: #009675;
+    width: 1375px;
+}
